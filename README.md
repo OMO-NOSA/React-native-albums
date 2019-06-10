@@ -1,5 +1,5 @@
 ### Description
-A GXP App on React Native and Expo
+A React Native and Expo project for Musical Albums
 
 ### Dependencies
 * expo cli
