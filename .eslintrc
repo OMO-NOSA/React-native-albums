@@ -1,3 +1,45 @@
 {
-  "extends": "rallycoding"
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": "airbnb",
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "no-unused-vars": "off",
+    "eslint-disable-next-line": "off",
+    "object-curly-newline": "off",
+    "no-use-before-define": "off",
+    "react/jsx-filename-extension": "off",
+    "react/prop-types": "off",
+    "comma-dangle": "off",
+    "no-inline-styles": "off",
+    "no-unused-styles": "off",
+    "split-platform-components": "off",
+    "no-color-literals": "off",
+    "import/no-extraneous-dependencies": "off",
+    "linebreak-style": ["error", "windows"]
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": [
+        ["@screens", "./screens"],
+        ["@components", "./components"],
+        ["@models", "./models"],
+        ["@assets", "./assets"]
+      ]
+    }
+  }
 }
