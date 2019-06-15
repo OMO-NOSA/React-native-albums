@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create(
-  containerStyle: {
+  containerStyle {
     borderWidth: 1,
     borderRadius: 2,
     borderColor: '#ddd',
@@ -14,6 +14,6 @@ const styles = StyleSheet.create(
     marginLeft: 5,
     marginRight: 5,
     marginTop: 10
-  }
-  
+  } 
+
 );
